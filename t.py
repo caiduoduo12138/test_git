@@ -14,6 +14,7 @@ from IPython import display
 from matplotlib import pyplot as plt
 
 
+#add here!
 def img2sk(img_floder='/home/cai/project/activate_learning/test_data/images/', label_file="/home/cai/project/activate_learning/test_data/label.txt"):
     f = open(label_file)
     lines = f.readlines()
